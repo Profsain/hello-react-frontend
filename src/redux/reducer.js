@@ -2,7 +2,7 @@ import {
   FETCH_GREETING_REQUEST,
   FETCH_GREETING_SUCCESS,
   FETCH_GREETING_FAILURE,
-} from './actions';
+} from './action';
 
 const initialState = {
   greeting: null,
@@ -18,18 +18,21 @@ const reducer = (state = initialState, action) => {
         isLoading: true,
         error: null,
       };
+
     case FETCH_GREETING_SUCCESS:
       return {
         ...state,
         isLoading: false,
         greeting: action.payload.greeting,
       };
+
     case FETCH_GREETING_FAILURE:
       return {
         ...state,
         isLoading: false,
         error: action.payload.error,
       };
+      
     default:
       return state;
   }
