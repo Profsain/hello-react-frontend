@@ -29,28 +29,3 @@ const Greeting = () => {
 };
 
 export default Greeting;
-
-
-// import React, { useEffect } from 'react';
-// import { useSelector, useDispatch } from 'react-redux';
-// import { fetchGreeting } from '../redux/greeting';
-
-// const Greeting = () => {
-//   const dispatch = useDispatch();
-//   const greeting = useSelector((state) => state.greeting);
-//   console.log(greeting)
-//   useEffect(() => {
-//     dispatch(fetchGreeting());
-//   }, []);
-
-//   return (
-//     <div>
-//       <h1>
-//         Greeting:
-        
-//       </h1>
-//     </div>
-//   );
-// };
-
-// export default Greeting;
