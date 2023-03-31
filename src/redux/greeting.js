@@ -1,4 +1,4 @@
-const apiURL = 'http://localhost:3000/api/v1/greetings';
+const apiURL = 'http://127.0.0.1:3000/api/v1/random_greeting';
 const GREET_EVERYONE = '/greeting/GREET_EVERYONE';
 
 export const greetEveryone = (greeting) => ({
