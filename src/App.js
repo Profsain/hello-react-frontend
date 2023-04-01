@@ -8,7 +8,6 @@ const App = () => (
       <Route path="/" element={<Greeting />} />
     </Routes>
   </Router>
-  // <h2>Welcome Welcome</h2>
 );
 
 export default App;

@@ -6,12 +6,12 @@ export const fetchGreetingRequest = () => ({
   type: FETCH_GREETING_REQUEST,
 });
 
-export const fetchGreetingSuccess = greeting => ({
+export const fetchGreetingSuccess = (greeting) => ({
   type: FETCH_GREETING_SUCCESS,
   payload: { greeting },
 });
 
-export const fetchGreetingFailure = error => ({
+export const fetchGreetingFailure = (error) => ({
   type: FETCH_GREETING_FAILURE,
   payload: { error },
 });
