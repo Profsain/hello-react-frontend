@@ -59,6 +59,7 @@ Rails React Setup
 ### Key Features <a name="key-features"></a>
 
 - React front app
+- Backend Rails API Link: https://github.com/Profsain/hello-rails-react-backend/pull/2
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
