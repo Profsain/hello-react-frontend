@@ -19,10 +19,10 @@ const Greeting = () => {
 
   return (
     <div className='container'>
-      <h1>
-        Greetings: 
-        { isLoading ? ' Loading...' : greeting}
-      </h1>
+      <h1>Greetings Message:</h1>
+      <h2>
+        {isLoading ? ' Loading...' : greeting}
+      </h2>
       {error && <p>{error}</p>}
     </div>
   );
